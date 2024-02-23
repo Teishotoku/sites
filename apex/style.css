@@ -1,0 +1,261 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto';
+}
+.head{
+    width: 100%;
+    height: 91px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #222;
+}
+
+.logo{
+    width: 82px;
+    height: 54px;
+}
+.container{
+    width: 330px;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.art{
+    width: 180px;
+    height: 91px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 30px;
+}
+.link{
+    text-decoration: none;
+    color: #ffffff;
+    margin-right: 10px;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+}
+.second-block{
+    font-family: 'Roboto';
+    height: 1020px;
+    display: flex;
+    justify-content: baseline;
+    background-color: #E5E1D8;
+}
+.text-radius{
+    background-color: #222;
+    color: #fff;
+    border-radius: 20px 20px 0px 0px;
+    width: 617px;
+    height: 95px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    margin-right: 40px;
+}
+.container1{
+    width: 272px;
+    height: 59px;
+    font-size: 50px;
+    line-height: 58px;
+    font-weight: 700px;
+    top: 736px;
+    left: 656px;
+    letter-spacing: 15px;
+    padding-top: 100px;
+    font-weight: bolder;
+    text-shadow: 2px 0px #000;
+}
+.container2{
+    color: #636363;
+    font-size: 30px;
+    letter-spacing: 3px;
+    padding-top: 60px;
+    font-weight: bold;
+}
+.container3{
+    width: 600px;
+    height: 300px;
+    letter-spacing: 3px;
+    padding-top: 80px;
+    line-height: 200%;
+}
+.second-2{
+    font-size: 24px;
+    display: flex;
+    flex-direction: column;
+    height: 1032px;
+    width: 850px;
+}
+.second-3{
+    background-color: #222;
+    width: 583px;
+    height: 1020px;
+    color: #fff;
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 30px;
+}
+.line{
+    line-height: 30px;
+    padding-top: 30px;
+    padding-left: 60px;
+}
+.green{
+    background-color: #C2DC49;
+}
+.summary{
+    list-style: none;
+    color: #3C6628;
+    font-size: 30px;
+    padding-top: 40px;
+}
+.ending{
+    font-style: italic;
+    display: flex;
+    justify-content: end;
+    padding-top: 200px;
+    padding-right: 40px;
+}
+.third-block{
+    width: 1974px;
+    height: 735px;
+    background-image: url(img/main-back.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.first-png{
+    background-color: #222;
+    width: 457px;
+    height: 517px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.greeny{
+    color:#C2DC49;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+}
+.default{
+    color:#fff;
+    font-weight: bold;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+}
+.lit{
+    color:#fff;
+    font-size: 20px;
+    box-sizing: initial;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.png{
+    width: 267px;
+    height: 230px;
+    padding-left: 20%;
+    position: relative;
+    bottom: 15%;
+}
+.four-block{
+    width: 1974px;
+    height: 960px;
+    background-color: #ffffff;
+}
+.spider{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.azhi{
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    letter-spacing: 15px;
+    font-weight: bolder;
+    text-shadow: 2px 0px #000;
+}
+.container22{
+    color:#636363;
+    font-size: 30px;
+    letter-spacing: 3px;
+    padding-top: 60px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+}
+.shop{
+    width: 1131px;
+    height: 622px;
+    padding-left: 400px;
+}
+.mini{
+    font-style: italic;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+}
+.large{
+    height: 1662px;
+    background-color: #E5E1D8;
+}
+.arena{
+    font-size: 20px;
+    font-style: italic;
+    line-height: 50px;
+    width: 1551px;
+    height: 650px;
+    margin-left: 202px;
+    margin-bottom: 60px;
+    padding-top: 80px;
+}
+.hr{
+    width: 1550px;
+    margin-left: 202px;
+}
+.played{
+    font-size: 20px;
+    font-style: italic;
+    line-height: 50px;
+    width: 1550px;
+    height: 550px;
+    margin-left: 202px;
+    padding-top: 100px;
+}
+.gray{
+    color: #787878;
+}
+
+.five-block{
+    width: 1920px;
+    height: 747px;
+    color: #fff;
+    font-size: 30px;
+    font-style: italic;
+    background-color: #252525;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.end{
+    padding-top: 120px;
+    width: 426px;
+    height: 159px;
+}

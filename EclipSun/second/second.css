@@ -1,0 +1,84 @@
+/* ОСНОВНЫЕ НАСТРОЙКИ */
+:root{
+  --back:#181825; 
+  --main:#fab387;
+  --fore:#cdd6f4;
+
+  --font:"JetBrainsMono-Bold";
+  --bisi:64px;
+  --mesi:24px;
+  --hesi:28px;
+  --otsi:32px;
+}
+*{
+  margin: 0;
+  padding: 0;
+  font-family: var(--font);
+}
+hr{
+  background-color: var(--main);
+  height: 4px;
+}
+@font-face{
+  font-family: "JetBrainsMono-Bold";
+  src: url("../ttf/JetBrainsMono-Bold.ttf");
+}
+
+/* ШАПКА */
+.head{
+  height: 10vh;
+  width: 100wh;
+  background-color: var(--main);
+  font-size: var(--hesi);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo{
+  height: 10vh; 
+  width: 10vh;
+}
+.container{
+  height: 5vh;
+  width: 50vw;
+  display: flex;
+  justify-content: space-evenly;
+  padding-right: 5%;
+}
+.link{
+  text-decoration: none;
+  color: var(--back);
+}
+
+/* ПЕРВЫЙ БЛОК */
+.first-block{
+  width: 100wh;
+  height: 820px;
+  background-color: var(--back);
+  flex-direction: column;
+}
+
+/* FOOTER */
+.footer{
+  width: 100wh;
+  height: 200px;
+  background-color: var(--main);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.media{
+  width: 20vw;
+}
+.full_logo{
+  display: flex;
+  align-items: center;
+}
+.back-bi{
+  font-size: var(--bisi);
+  color: var(--back);
+}
+.back-mi{
+  font-size: var(--hesi);
+  color: var(--back);
+}
