@@ -3,9 +3,11 @@
     padding: 0;
 }
 .block-one{
-    height: 900px;
-    width: 1920px;
+    height: 65vh;
+    width: 100vw;
     background-image: url(img/bgc.png);
+    background-repeat: no-repeat;
+    background-size: cover;
     color: #fff;
     padding-top: 20px;
     font-family: 'Montserrat', sans-serif;
