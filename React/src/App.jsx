@@ -1,7 +1,9 @@
 
-import Costs from "./components/Costs";
+import React from "react";
+import NewCost from "./components/NewCost/NewCost";
+import Costs from "./components/Costs/Costs";
 
-function App() {
+const App =() => {
 
   const costs = [
     {
@@ -23,11 +25,21 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Garbage</h1>
+      <NewCost></NewCost>
       <p>web storage of device</p>
+      <p>component</p>
       <Costs costs={costs}/>
     </div>
   );
+
+// АЛЬТЕРНАТИВНЫЙ СПОСОБ ЗАПИСИ
+//  return React.createElement(
+//    'div',
+//    {}, 
+//    React.createElement( 'h1', {}, 'Начнем изучение React!'),
+//  React.createElement(Costs, {costs: costs})
+//  );
+
 }
 
 export default App;
