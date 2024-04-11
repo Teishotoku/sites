@@ -1,0 +1,18 @@
+.card{
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.card button{
+  background: #232323;
+  color: #fab387;
+  border: none;
+  width: 50%;
+  height: 20%;
+}
+.card button:hover{
+  background: #fab387;
+  color: #232323;
+  transition: 1s ease;
+}

@@ -1,0 +1,10 @@
+.new-cost{
+  width: 95vw;
+  height: 15vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  background: #323232;
+  border-bottom: 2px solid #fab387;
+}
