@@ -24,13 +24,44 @@ body {
 
 /* --- COMPONENTS --- */
 
+/* Burger */
+header{
+  width: 100vw;
+  height: 8vh;
+  position: fixed;
+  background: opacity(0);
+  display: flex;
+  justify-content: end;
+
+  button{
+    background: none;
+    border: none;
+    width: 10%;
+    height: 100%;
+    
+   img{
+    width: 60%;
+    aspect-ratio: 2 / 2;
+    filter: brightness(0) saturate(100%) invert(80%) sepia(22%) saturate(5785%) hue-rotate(346deg) brightness(101%) contrast(105%);
+  }
+  
+  img:hover{
+    transform: rotate(90deg);
+    transition: 0.5s ease-in;
+  }
+  
+  }
+  
+}
 
 /* App */
 .App{
   height: 100vh;
   width: 100vw;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
   color: $primary;
   font-weight: bold;
   font-size: 200%;
@@ -39,8 +70,61 @@ body {
   background-size: 100%;
   background-repeat: no-repeat;
 
+  button{
+    width: 30%;
+    height: 10%;
+    background: $primary;
+    border: none;
+    font-family: "Post";
+    font-size: 200%;
+    font-weight: bold;
+    border-radius: 24px;
+    margin-bottom: 5%;
+  }
+
+  button:hover{
+    animation: background-gradient 5s ease infinite;
+    background: linear-gradient(-45deg, $primary 50%, $second 100%);
+    background-size: 400%;
+    transition: 2s ease;
+  }
+  
+  @keyframes background-gradient {
+  0% {
+    background-position: 100% 0%;
+  }
+  20% {
+    background-position: 50% 50%;
+  }
+  50% {
+    background-position: 20% 80%;
+  }
+  100% {
+    background-position: 100% 0%;
+  }
+}
+
+}
+
+.hiBlock{
+  width: 30%;
+  height: 20%;
+  background: rgba(0,0,0,0.4);
+  backdrop-filter: blur(8px);
+  border-radius: 48px 16px;
+  border: 2px solid $primary;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
   p{
+    font-size: 200%;
     color: $whi;
+  }
+
+  a{
+    color: $primary;
   }
 }
 .Header{
@@ -48,8 +132,8 @@ body {
   height: 10vh;
 }
 .Logo{
-  width: 50%;
-  height: 25%;
+  width: 40%;
+  height: 30%;
 }
 
 /* SLIDER */
@@ -59,15 +143,36 @@ body {
   border-bottom: 4px solid $primary;
 }
 
-/* Reviews */
-.Reviews{
+/* Customization */
+.Customization{
   width: 100vw;
   height: 100vh;
   border-bottom: 4px solid $primary;
+  background-image: url("../../public/img/perks.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Post";
+  font-size: 250%;
+  font-weight: bold;
+}
+.Content{
+  width: 100%;
+  height: 10%;
+  background-color: rgba(0,0,0,0.4);
+  backdrop-filter: blur(8px);
+  color: $primary;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-/* Customization */
-.Customization{
+/* Reviews */
+.Reviews{
   width: 100vw;
   height: 100vh;
   border-bottom: 4px solid $primary;

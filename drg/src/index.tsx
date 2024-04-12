@@ -4,6 +4,10 @@ import ReactDOM from 'react-dom/client';
 
 // FILES
 import './style/index.scss';
+import './style/pad.scss';
+import './style/phone.scss';
+
+// COMPONENTS
 import App from './App';
 import Footer from './components/Footer';
 import Burger from './components/Burger';
@@ -20,8 +24,8 @@ root.render(
     <Burger/>
     <App/>
     <Slider/>
-    <Reviews/>
     <Customizaton/>
+    <Reviews/>
     <Shop/>
     <Footer/>
   </React.StrictMode>

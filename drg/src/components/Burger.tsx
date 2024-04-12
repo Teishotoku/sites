@@ -1,7 +1,9 @@
 const Burger = () => {
   return (
-  <div>
-  </div> 
+  <header>
+      <button><img src="./img/pickaxe.png"/></button>
+      <nav></nav>
+  </header> 
   );  
 }
 
