@@ -4,8 +4,6 @@ import ReactDOM from 'react-dom/client';
 
 // FILES
 import './style/index.scss';
-import './style/pad.scss';
-import './style/phone.scss';
 
 // COMPONENTS
 import App from './App';
