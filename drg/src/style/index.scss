@@ -1,6 +1,6 @@
 /* ---   IMPORTS   --- */
 
-@import "_pad","_phone";   // adaptive files
+@import "./_pad.scss","./_phone.scss";   // adaptive files
 
 /* --- PREFERENCES --- */
 
@@ -105,7 +105,7 @@ header{
     background: $primary;
     border: none;
     font-family: "Post";
-    font-size: 200%;
+    font-size: 2.5vw;
     font-weight: bold;
     border-radius: 24px;
     margin-bottom: 5%;
@@ -148,7 +148,7 @@ header{
   justify-content: center;
 
   p{
-    font-size: 200%;
+    font-size: 2.5vw;
     color: $whi;
   }
 
@@ -170,7 +170,7 @@ header{
   width: 100vw;
   height: 100vh;
   border-bottom: 4px solid $primary;
-  background: $back;
+  background: $second;
 }
 
 /* Customization */
@@ -233,10 +233,13 @@ header{
 /* Reviews */
 .Reviews{
   width: 100vw;
-  height: 100vh;
+  height: 120vh;
   border-bottom: 4px solid $primary;
   font-family: 'Post';
   font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 .rate{
   width: 100%;
@@ -335,7 +338,7 @@ header{
 }
 
 .cards{
-  height: 65%;
+  height: 55%;
   width: 100%;
   display: flex;
   justify-content: space-evenly;
@@ -344,8 +347,12 @@ header{
 .card{
   width: 25%;
   height: 90%;
-  background-color: $primary;
+  background: linear-gradient($primary 50%, $second 100%);
   border-radius: 24px;
+}
+.card:hover{
+  margin-bottom: 5%;
+  transition: 2s;
 }
 .cont{
   width: 100%;
@@ -356,7 +363,6 @@ header{
   align-items: center;
   font-size: 1.5vw;
   text-align: center;
-
 }
 .quote{
   width: 40%;
@@ -364,7 +370,7 @@ header{
 }
 .user{
   width: 35%;
-  height: 25%;
+  aspect-ratio: 1 / 1 ;
 }
 
 /* Shop */
